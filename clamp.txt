@@ -1,0 +1,34 @@
+ex1: width: clamp(10em, 70% 17em);
+ex2: font-size: clamp(1em, 20px, 2em);
+
+
+
+clamp kya hai-->
+
+clamp ek css function hai jisme 3 parameters dalte hai 
+max,prefered,max (inhi order me)
+
+
+
+clamp kese kaam kerta hai-->
+
+min size hogi ki kisika parameter iske neeche na jaye
+max size hoga jisse up ja jaye, zyada se ayada ita rhe
+beech vala hota hai prefered size jha tumhe apne hisab se value dalni hai 
+agr beech vali value max se badi hogyi to max vali count hogi
+agr beech vali min se min se neech hogyi yo min vali count hogi
+jab tak pre vali max aur min ki limits m etab tak vo chalegi 
+
+
+
+jesse 1st example me kiya tha-->
+
+jabtak screen size window size tha to 17em liya kyuki screen size ka 70% 17em se bda tha
+usek baad 70% lene lga jab screen size ka 70% 17em se neeche gya
+phir 10em liya jab screen size ka 70% 10em se chota nhi hogya 
+
+
+
+clamp ka use-->
+
+responsivness ke liye use ker sakte hai
